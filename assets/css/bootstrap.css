@@ -160,7 +160,7 @@ a {
 
 a:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]) {
@@ -10290,4 +10290,49 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .caption {
   font-size: 1.2rem; /* Adjust size as needed */
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn i {
+  margin-right: 8px;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.btn-linkedin:hover {
+  background-color: #005582;
+  color: #ffffff;
+}
+
+.btn-github {
+  background-color: #333;
+  color: white;
+}
+
+.btn-github:hover {
+  background-color: #24292e;
+  color: #ffffff;
+}
+
+.btn-download {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-download:hover {
+  background-color: #388e3c;
+  color: #ffffff;
 }
