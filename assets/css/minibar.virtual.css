@@ -1,10 +1,17 @@
 .divider {
     display: block;
-    margin: -5px 0 16px 0;
     max-width: 150px;
     border-bottom: 2px dashed #9FA2AB;
 }
 
+@media (max-width: 576px) {
+    .divider {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 150px;
+    }
+  }
+  
 .topbar-nav {
     display: flex;
     align-items: center;
@@ -559,6 +566,16 @@
 
 
 /* Footer */
+
+@media (max-width: 576px) {
+    .vg-footer .col-md-6 {
+      text-align: center;
+    }
+    .vg-footer .col-md-6 ul {
+      padding-left: 0;
+    }
+  }
+  
 .vg-footer {
     position: relative;
     display: block;

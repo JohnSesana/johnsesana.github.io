@@ -1,8 +1,15 @@
 .divider {
   display: block;
-  margin: -5px 0 16px 0;
-  max-width: 150px;
+  max-width: 250px;
   border-bottom: 2px dashed #9FA2AB;
+}
+
+@media (max-width: 576px) {
+  .divider {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+  }
 }
 
 .badge-subhead {
@@ -63,7 +70,7 @@
 .page-home {  
   padding: 25px 0;
   width: 100%;
-  height: 700px;
+  height: 600px;
   z-index: 99;
 }
 
@@ -91,7 +98,7 @@
 
 .page-home .navbar.floating {
   top: 0;
-  background-color: ##ffffff;
+  background-color: #ffffff;
 }
 
 .page-home .caption-header {
@@ -452,6 +459,16 @@
 }
 
 /* Footer */
+@media (max-width: 576px) {
+  .vg-footer .col-md-6 {
+    text-align: center;
+  }
+  .vg-footer .col-md-6 ul {
+    padding-left: 0;
+  }
+}
+
+
 .vg-footer {
   position: relative;
   display: block;
