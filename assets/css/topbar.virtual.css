@@ -469,7 +469,12 @@
 .vg-footer .list-unstyled li {
   margin-bottom: 6px;
   font-size: 21px;
-  color: #fff;
+}
+
+.vg-footer .list-unstyled a:hover,
+.vg-footer .list-unstyled li:hover {
+  color: white;
+
 }
 
 .vg-footer .form-control {
