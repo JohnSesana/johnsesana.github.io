@@ -8,7 +8,7 @@
   
   <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
   
-  <title>Virtual Folio - Portfolio HTML5 Template</title>
+  <title>John Sesana</title>
 
   <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
   
@@ -29,6 +29,26 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css">
   
   <link rel="stylesheet" type="text/css" href="../assets/css/topbar.virtual.css">
+
+  <script>
+    function calculateAge(birthday) {
+        const today = new Date();
+        const birthDate = new Date(birthday);
+        let age = today.getFullYear() - birthDate.getFullYear();
+        const monthDiff = today.getMonth() - birthDate.getMonth();
+        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+        return age;
+    }
+
+    window.onload = function() {
+        const ageElement = document.getElementById("age");
+        const birthday = "2002-03-09";
+        ageElement.textContent = calculateAge(birthday);
+    }
+  </script>
+
 </head>
 <body class="theme-red">
   
@@ -109,7 +129,7 @@
     <div class="caption-header text-center wow zoomInDown">
       <h5 class="fw-normal">Hello! 👋</h5>
       <h1 class="fw-light mb-4">I'm <b class="fg-theme-green">John</b> Sesana</h1>
-      <div class="badge">Self Taught Developer & Data Specialist</div>
+      <div class="badge">Software Developer & Data Specialist</div>
     </div> <!-- End Caption header -->
     <div class="floating-button"><span class="ti-mouse"></span></div>
   </div>
@@ -119,18 +139,18 @@
       <div class="row">
         <div class="col-lg-4 py-3">
           <div class="img-place wow fadeInUp">
-            <img src="../assets/img/person.jpg" alt="">
+            <img src="../assets/img/person.png" alt="">
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
           <h1 class="fw-light">John Sesana</h1>
-          <h5 class="fg-theme mb-3">Self Taught Developer & Data Specialist</h5>
-          <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form but the majority have suffered alteration in some</p>
+          <h5 class="fg-theme mb-3">Software Developer & Data Specialist</h5>
+          <p class="text-muted">Hi, there! I am self-taught software developer and data specialist. When I'm not on a computer, you can find me at the Muay Thai gym, or practicing a sport with some friends ! I believe that you can learn anything with a computer, time, and discipline. </p>
           <ul class="theme-list">
-            <li><b>From:</b> Texas, US</li>
-            <li><b>Lives In:</b> Texas, US</li>
-            <li><b>Age:</b> 25</li>
-            <li><b>Gender:</b> Male</li>
+            <li><b>From:</b> Brasília, Brasil 🇧🇷</li>
+            <li><b>Lives In:</b> Montréal, Canada 🇨🇦</li>
+            <li><b>Languages:</b> Portuguese, French, English </span></li>
+            <li><b>Hobbies:</b> Games, Muay Thai, Fishing, Coding </li>
           </ul>
           <button class="btn btn-theme-outline">Download CV</button>
         </div>
