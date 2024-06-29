@@ -135,7 +135,7 @@ a:hover, a:active {
     padding: 10px 30px;
     margin: 5px;
     height: unset;
-    background-color: #747474;
+    background-color: #94c751;
     color: #fff;
     font-weight: 500;
     border-radius: 6px;
@@ -143,8 +143,8 @@ a:hover, a:active {
 }
 
 .btn-theme:hover, .btn-theme:active {
-    background-color: #808080;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .btn-theme:focus {
@@ -356,24 +356,8 @@ a:hover, a:active {
     background-color: #6f42c1 !important;
 }
 
-.fg-theme-red {
-    color: #ef3724 !important;
-}
-
-.fg-theme-blue {
-    color: #2960f7 !important;
-}
-
 .fg-theme-green {
     color: #8cc63f !important;
-}
-
-.fg-theme-orange {
-    color: #fd7e14 !important;
-}
-
-.fg-theme-purple {
-    color: #6f42c1 !important;
 }
 
 .fg-dark {
@@ -1113,133 +1097,6 @@ a:hover, a:active {
     }
 }
 
-
-/* Theme color style */
-
-/* Theme red */
-.theme-red .bg-theme {
-    background-color: #EF3724 !important;
-}
-
-.theme-red .fg-theme {
-    color: #EF3724 !important;
-}
-
-.theme-red .btn-theme {
-    background-color: #EF3724;
-    color: #fff;
-}
-
-.theme-red .btn-theme:hover {
-    background-color: #F04936;
-    color: #fff;
-}
-
-.theme-red .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #EF3724;
-}
-
-.theme-red .btn-theme-outline {
-    color: #EF3724;
-    box-shadow: 0 0 0 2px #EF3724;
-}
-
-.theme-red .btn-theme-outline:hover {
-    background-color: #EF3724;
-    color: #fff;
-}
-
-.theme-red .btn-theme-outline:focus {
-    background-color: #EF3724;
-    color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #EF3724;
-}
-
-.theme-red .btn-fab {
-    background-color: #EF3724;
-    color: #fff;
-}
-
-.theme-red .btn-fab:hover {
-    background-color: #F04936;
-    color: #fff;
-}
-
-.theme-red .progress {
-    box-shadow: 0 0 0 2px #EF3724;
-}
-
-.theme-red .progress-bar {
-    background-color: #EF3724;
-}
-
-.theme-red .theme-list li::before {
-    border-color: #EF3724;
-}
-
-
-/* Theme Blue */
-.theme-blue .bg-theme {
-    background-color: #2960f7 !important;
-}
-
-.theme-blue .fg-theme {
-    color: #2960f7 !important;
-}
-
-.theme-blue .btn-theme {
-    background-color: #2960f7;
-    color: #fff;
-}
-
-.theme-blue .btn-theme:hover {
-    background-color: #3f71f8;
-    color: #fff;
-}
-
-.theme-blue .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #2960f7;
-}
-
-.theme-blue .btn-theme-outline {
-    color: #2960f7;
-    box-shadow: 0 0 0 2px #2960f7;
-}
-
-.theme-blue .btn-theme-outline:hover {
-    background-color: #2960f7;
-    color: #fff;
-}
-
-.theme-blue .btn-theme-outline:focus {
-    background-color: #2960f7;
-    color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #2960f7;
-}
-
-.theme-blue .btn-fab {
-    background-color: #2960f7;
-    color: #fff;
-}
-
-.theme-blue .btn-fab:hover {
-    background-color: #3f71f8;
-    color: #fff;
-}
-
-.theme-blue .progress {
-    box-shadow: 0 0 0 2px #2960f7;
-}
-
-.theme-blue .progress-bar {
-    background-color: #2960f7;
-}
-
-.theme-blue .theme-list li::before {
-    border-color: #2960f7;
-}
-
-
 /* Theme Green */
 .theme-green .bg-theme {
     background-color: #8cc63f !important;
@@ -1299,128 +1156,4 @@ a:hover, a:active {
 
 .theme-green .theme-list li::before {
     border-color: #8cc63f;
-}
-
-
-/* Theme Orange */
-.theme-orange .bg-theme {
-    background-color: #fd7e14 !important;
-}
-
-.theme-orange .fg-theme {
-    color: #fd7e14 !important;
-}
-
-.theme-orange .btn-theme {
-    background-color: #fd7e14;
-    color: #fff;
-}
-
-.theme-orange .btn-theme:hover {
-    background-color: #fd8a2c;
-    color: #fff;
-}
-
-.theme-orange .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #fd7e14;
-}
-
-.theme-orange .btn-theme-outline {
-    color: #fd7e14;
-    box-shadow: 0 0 0 2px #fd7e14;
-}
-
-.theme-orange .btn-theme-outline:hover {
-    background-color: #fd7e14;
-    color: #fff;
-}
-
-.theme-orange .btn-theme-outline:focus {
-    background-color: #fd7e14;
-    color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #fd7e14;
-}
-
-.theme-orange .btn-fab {
-    background-color: #fd7e14;
-    color: #fff;
-}
-
-.theme-orange .btn-fab:hover {
-    background-color: #fd8a2c;
-    color: #fff;
-}
-
-.theme-orange .progress {
-    box-shadow: 0 0 0 2px #fd7e14;
-}
-
-.theme-orange .progress-bar {
-    background-color: #fd7e14;
-}
-
-.theme-orange .theme-list li::before {
-    border-color: #fd7e14;
-}
-
-
-/* Theme Purple */
-.theme-purple .bg-theme {
-    background-color: #6f42c1 !important;
-}
-
-.theme-purple .fg-theme {
-    color: #6f42c1 !important;
-}
-
-.theme-purple .btn-theme {
-    background-color: #6f42c1;
-    color: #fff;
-}
-
-.theme-purple .btn-theme:hover {
-    background-color: #7b54c2;
-    color: #fff;
-}
-
-.theme-purple .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #6f42c1;
-}
-
-.theme-purple .btn-theme-outline {
-    color: #6f42c1;
-    box-shadow: 0 0 0 2px #6f42c1;
-}
-
-.theme-purple .btn-theme-outline:hover {
-    background-color: #6f42c1;
-    color: #fff;
-}
-
-.theme-purple .btn-theme-outline:focus {
-    background-color: #6f42c1;
-    color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #6f42c1;
-}
-
-.theme-purple .btn-fab {
-    background-color: #6f42c1;
-    color: #fff;
-}
-
-.theme-purple .btn-fab:hover {
-    background-color: #7b54c2;
-    color: #fff;
-}
-
-.theme-purple .progress {
-    box-shadow: 0 0 0 2px #6f42c1;
-}
-
-.theme-purple .progress-bar {
-    background-color: #6f42c1;
-}
-
-.theme-purple .theme-list li::before {
-    border-color: #6f42c1;
 }
